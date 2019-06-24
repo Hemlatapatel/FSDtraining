@@ -1,0 +1,169 @@
+create database mysql_command;
+use mysql_command;
+create table Products(productCode varchar(15) primary key, productName varchar(70), productVendor varchar(50), productDescription TEXT);
+
+drop table Products;
+
+create table Products(productCode varchar(15) , productName varchar(70), productVendor varchar(50), productDescription TEXT , constraint productCode_pk primary key(productCode));
+
+create table Offices(officeCode varchar(10) primary key, city varchar(50), phone varchar(50), addressLine varchar(50), state varchar(50), country varchar(50), postalCode varchar(15) );
+
+create table Employees (employeeNumber integer primary key, lastName varchar(50), firstName varchar(50), officeCode varchar(10) references Offices(officeCode) );
+
+desc Employees;
+
+drop table Employees;
+
+create table Employees (employeeNumber integer primary key, lastName varchar(50), firstName varchar(50), officeCode varchar(10), foreign key(officeCode) references Offices(officeCode) );
+
+drop table Products;
+
+create table Products(productCode varchar(15) primary key , productName varchar(70) not null, productVendor varchar(50) not null, productDescription varchar(50) unique);
+
+-- NOTE: mysql does not support the check constraint . it used trigger for this. mysql also does not support full outer join.
+
+-- create table Employees (employeeNumber integer primary key, lastName varchar(50), firstName varchar(50), extension varchar(10), officeCode varchar(10), foreign key(officeCode) references Offices(officeCode)
+-- constraint extension_chk check(extension like 'x%'));
+
+-- CASE STUDY 1
+
+create table Course_info (courese_code varchar(10) primary key, course_name varchar(20), course_description varchar(25), course_start_date date, course_duration int, no_of_participants
+int, course_type char(3));
+
+create table Student_info(student_id varchar(10) primary key, first_name varchar(20), last_name varchar(25), address varchar(150));
+
+create table Student_courses(student_id varchar(10), course_code varchar(10), foreign key(student_id) references Student_info(student_id), 
+foreign key(course_code) references Course_info(courese_code) );
+
+drop table Student_courses;
+
+create table Student_courses(student_id varchar(10), course_code varchar(10), constraint fk_student_id foreign key(student_id) references Student_info(student_id), 
+constraint fk_course_code foreign key(course_code) references Course_info(courese_code) );
+
+insert into Course_info values('fs1', 'fsd', 'full stack developer', '2019-04-15', 4, 20, 'r');
+
+insert into Course_info values('at1', 'testing', 'automation testing', '2019-04-15', 1, 20, 'r');
+
+insert into Student_info values('s1', 'hemlata', 'patel', 'indore');
+
+insert into Student_info values('s2', 'anushree', 'choubey', 'bhopal');
+
+insert into Student_info values('s3', 'bhupi', 'janghel', 'bangalore');
+
+insert into Student_info values('s4', 'arindam', 'banerjee', 'kolkata');
+
+insert into Student_courses values ('s1', 'fs1');
+
+insert into Student_courses values ('s2', 'at1');
+insert into Student_courses values ('s3', 'fs1');
+insert into Student_courses values ('s4', 'fs1');
+
+select s.student_id, s.first_name, s.last_name, sc.course_code from Student_info s join Student_courses sc on s.student_id = sc.student_id where sc.course_code='fs1';
+
+alter table Course_info add column discount int;
+
+select * from Course_info;
+alter table Course_info change column courese_code course_code varchar(10);
+desc Course_info;
+update Course_info set discount=20 where course_code='at1';
+
+update Course_info set discount=30 where course_code='fs1';
+
+create table Course_info_2(course_code int, course varchar(20), course_description varchar(20), course_start_date Date);
+
+-- req : 1
+alter table Course_info_2 modify column course_code varchar(10);
+
+-- req 2
+alter table Course_info_2 modify course_description varchar(200);
+
+-- req 3
+alter table Course_info_2 add column course_duration int, add column no_of_participants int, add column course_type char(3);
+
+-- req 4
+alter table Course_info_2 change course course_name varchar(20);
+
+-- NOTE: rename is used to rename the table name and change is used to change the column name
+
+-- req 5
+alter table Course_info_2 rename CMS_Course_info_2;
+
+desc CMS_Course_info_2;
+-- req 6
+truncate table CMS_Course_info_2;
+drop table CMS_Course_info_2;
+
+create table Course_info_2(course_code int, course varchar(20), course_description varchar(20), course_start_date Date);
+
+insert into Course_info_2 values(343, 'java programming', 'basics of java', '2012-12-12');
+insert into Course_info_2 values(167, 'c programming', 'basics of c', '2012-11-11');
+insert into Course_info_2 values(347, 'rdbms', 'basics of rdbms', '2019-08-12');
+insert into Course_info_2 values(106, 'oracle', 'oracle sql ', '2011-03-11');
+
+-- req 7
+alter table Course_info_2 add constraint pk_course_code primary key(course_code);
+truncate table Course_info_2;
+update  Course_info_2 set course_name='mysql', course_description='mysql sql' where course_code=106;
+
+desc Course_info_2;
+select * from Course_info_2;
+
+
+--------------------------------------------------- -------------
+create table suppliers(supplier_id int primary key not null, supplier_name varchar(50) not null, address varchar(50), city varchar(50), state varchar(25), zip_code varchar(10));
+
+create table customers(customer_id int not null, customer_name varchar(50), address varchar(50),  city varchar(50), state varchar(25), zip_code varchar(10),
+constraint pk_customer_id primary key(customer_id));
+
+alter table customers modify column customer_name varchar(50) not null;
+
+desc customers;
+
+desc Products;
+desc Employees;
+
+-- ------------------------------TCL(transaction control language)----------------------
+
+-- ---------- commit, rollback, savepoint-------------
+select * from Course_info_2;
+
+start transaction;
+
+delete from Course_info_2 where course_code = 106;
+
+rollback;
+-- NOTE: we can get data again using rollback
+
+commit;
+-- Note: commit means we can not rollback.
+
+start transaction;
+insert into Course_info_2 values(106, 'oracle', 'oracle sql ', '2011-03-11');
+
+savepoint sp1;
+select * from Course_info_2;
+delete from Course_info_2 where course_code = 106;
+rollback to sp1;
+
+insert into Course_info_2 values(106, 'oracle', 'oracle sql ', '2011-03-11');
+
+commit;
+update Course_info_2 set course_name='oracle course' where course_code =106;
+
+-- ------------------------ DCL(data control language)---------------------------------
+-- -------------------- grant and revoke---------------------
+
+create user hemlata identified by 'pass@123';
+
+grant create on *.* to 'hemlata';   -- give only create permission
+grant select on *.* to 'hemlata';
+grant update on *.* to 'hemlata';
+grant all on *.* to 'hemlata';
+
+revoke create on *.* from 'hemlata';
+-- revoke all on *.* from 'hemlata';   NOTE: we can not revoke all the permission. we have to invoke one by one.
+
+
+
+
+
