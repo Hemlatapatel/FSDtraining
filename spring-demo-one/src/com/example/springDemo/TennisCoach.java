@@ -45,4 +45,17 @@ public class TennisCoach implements Coach{
 		return null;
 	}
 
-}
+	public void doMyInitStuff() {
+		System.out.println("TennisCoach: inside the doMyInitStuff");
+	}
+	
+	
+	public void doMyCleanupStuff() {
+		System.out.println("TennisCoach: inside the diMycleanupStuff");
+	}
+	
+	
+	
+	
+	
+	}
