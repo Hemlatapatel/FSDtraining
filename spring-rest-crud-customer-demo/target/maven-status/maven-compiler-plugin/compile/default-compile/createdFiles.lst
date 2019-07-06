@@ -1,0 +1,8 @@
+comm\example\springdemo\service\CustomerServiceImpl.class
+comm\example\springdemo\config\MySpringMvcDispatcherServletInitializer.class
+comm\example\springdemo\entity\Customer.class
+comm\example\springdemo\service\CustomerService.class
+comm\example\springdemo\dao\CustomerDao.class
+comm\example\springdemo\controller\CustomerRestController.class
+comm\example\springdemo\config\DemoAppConfig.class
+comm\example\springdemo\dao\CustomerDaoImpl.class
