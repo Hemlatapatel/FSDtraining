@@ -1,0 +1,8 @@
+127.0.0.1 - - [26/Jun/2019:21:54:49 +0530] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [26/Jun/2019:21:54:49 +0530] "GET /soccerleague/ HTTP/1.1" 200 702
+127.0.0.1 - - [26/Jun/2019:21:54:53 +0530] "GET /soccerleague/list_leagues.view HTTP/1.1" 200 430
+127.0.0.1 - - [26/Jun/2019:21:54:57 +0530] "GET /soccerleague/add_league.view HTTP/1.1" 200 392
+127.0.0.1 - - [26/Jun/2019:21:55:10 +0530] "POST /soccerleague/add_league.do HTTP/1.1" 200 462
+127.0.0.1 - - [26/Jun/2019:21:55:14 +0530] "GET /soccerleague/index.html HTTP/1.1" 200 702
+127.0.0.1 - - [26/Jun/2019:21:55:17 +0530] "GET /soccerleague/add_league.view HTTP/1.1" 200 392
+127.0.0.1 - - [26/Jun/2019:21:55:29 +0530] "POST /soccerleague/add_league.do HTTP/1.1" 200 493

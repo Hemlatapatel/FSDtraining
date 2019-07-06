@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-websocket.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/ecj-4.10.jar"/>
+  <path value="D:/Eclipse Workspace/JavaNew/CustomerUsingUseBean/WebContent/WEB-INF/lib/commons-logging-1.2.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-ru.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-jni.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-pt-BR.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-de.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina-ant.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/jasper-el.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/annotations-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-coyote.jar"/>
+  <path value="D:/Eclipse Workspace/JavaNew/CustomerUsingUseBean/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+  <path value="D:/Eclipse Workspace/JavaNew/CustomerUsingUseBean/WebContent/WEB-INF/lib/commons-dbcp2-2.6.0.jar"/>
+  <path value="D:/Eclipse Workspace/JavaNew/CustomerUsingUseBean/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0-rt.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0-rt.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fn.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/permittedtaglibs.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/scriptfree.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0-rt.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0-rt.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0.tld" project="CustomerUsingUseBean"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x.tld" project="CustomerUsingUseBean"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/jaspic-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/servlet-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-zh-CN.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-util.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-cs.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/jsp-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/websocket-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/el-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-ko.jar"/>
+  <path value="D:/Eclipse Workspace/JavaNew/CustomerUsingUseBean/WebContent/WEB-INF/lib/commons-pool2-2.6.2.jar"/>
+  <path value="D:/Eclipse Workspace/JavaNew/CustomerUsingUseBean/WebContent/WEB-INF/lib/mysql-connector-java-8.0.16.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina-ha.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/jasper.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el/>
+ </validation>
+ <aliases/>
+ <includes/>
+ <uris/>
+</kb-project>

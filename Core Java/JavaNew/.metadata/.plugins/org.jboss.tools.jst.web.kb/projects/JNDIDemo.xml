@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-websocket.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/ecj-4.10.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-ru.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-jni.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-pt-BR.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-de.jar"/>
+  <path value="C:/Users/ibmfsd17/git/JNIDProjectRepo/JNDIDemo/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0-rt.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0-rt.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fn.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/permittedtaglibs.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/scriptfree.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0-rt.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0-rt.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0.tld" project="JNDIDemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x.tld" project="JNDIDemo"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina-ant.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/jasper-el.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/annotations-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/jaspic-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/servlet-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/ibmfsd17/git/JNIDProjectRepo/JNDIDemo/WebContent/WEB-INF/lib/mysql-connector-java-8.0.16.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-zh-CN.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-util.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-cs.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/jsp-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/websocket-api.jar"/>
+  <path value="C:/Users/ibmfsd17/git/JNIDProjectRepo/JNDIDemo/WebContent/WEB-INF/lib/commons-pool2-2.4.3.jar"/>
+  <path value="C:/Users/ibmfsd17/git/JNIDProjectRepo/JNDIDemo/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/el-api.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/tomcat-i18n-ko.jar"/>
+  <path value="C:/Users/ibmfsd17/git/JNIDProjectRepo/JNDIDemo/WebContent/WEB-INF/lib/commons-logging-1.2.jar"/>
+  <path value="C:/Users/ibmfsd17/git/JNIDProjectRepo/JNDIDemo/WebContent/WEB-INF/lib/commons-dbcp2-2.6.0.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/catalina-ha.jar"/>
+  <path value="C:/Users/ibmfsd17/Downloads/apache-tomcat-9.0.21/lib/jasper.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="30" name="%0" offset="338" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/JNDIDemo/WebContent/add_employee.jsp" value="%1"/>
+  <alias path="requestParam" value="%0"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
+</kb-project>
