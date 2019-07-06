@@ -1,0 +1,12 @@
+com\example\entity\InstructorDetail.class
+com\example\hibernate_maven_instructor\GetInstructorCoursesDemo.class
+com\example\hibernate_maven_instructor\CreateInstructorDemo.class
+com\example\hibernate_maven_instructor\DeleteDemo.class
+com\example\entity\Student.class
+com\example\hibernate_maven_instructor\DeleteInstructorDetail.class
+com\example\hibernate_maven_instructor\DeleteCourseDemo.class
+com\example\entity\Course.class
+com\example\hibernate_maven_instructor\CreateCoursesDemo.class
+com\example\hibernate_maven_instructor\CreateDemo.class
+com\example\entity\Instructor.class
+com\example\hibernate_maven_instructor\GetInstructorDetail.class
