@@ -1,0 +1,5 @@
+comm\example\springsecurity\demo\config\SecurityWebApplicationInitializer.class
+comm\example\springsecurity\demo\controller\DemoController.class
+comm\example\springsecurity\demo\config\MySpringMvcDispatcherServletInitializer.class
+comm\example\springsecurity\demo\config\DemoAppConfig.class
+comm\example\springsecurity\demo\config\DemoSecurityConfig.class
