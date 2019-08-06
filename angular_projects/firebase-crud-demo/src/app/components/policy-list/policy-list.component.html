@@ -1,0 +1,33 @@
+<!--<div class="container">-->
+<!--  <input type="text" [(ngModel)]="policy.id" #id placeholder="id">-->
+<!--  <input type="text" [(ngModel)]="policy.policyNumber" #policyNumber placeholder="policyNumber">-->
+
+<!--  <input type="date" [(ngModel)]="policy.creationDate" #creationDate placeholder="creationDate">-->
+<!--  <input type="date" [(ngModel)]="policy.effectiveDate" #effectiveDate placeholder="effectiveDate">-->
+<!--  <input type="date" [(ngModel)]="policy.expireDate" #expireDate placeholder="expireDate">-->
+<!--  <input type="text" [(ngModel)]="policy.policyAmount" #policyAmount placeholder="policyAmount">-->
+<!--  <input type="text" [(ngModel)]="policy.extraInfo" #extraInfo placeholder="extraInfo">-->
+
+<!--  <button></button>-->
+<!--</div>-->
+
+
+<table>
+  <thead>
+  <th>Policy Number</th>
+  <th>Creation Date</th>
+  <th>Expiry Date</th>
+  <th>Policy amount</th>
+
+  </thead>
+  <tbody>
+  <tr *ngFor="let policy of policies">
+    <td>{{ policy.policyNumber }}</td>
+
+    <td>{{ policy.creationDate }}</td>
+    <td>{{ policy.expireDate }}</td>
+    <td>{{ policy.policyAmount }}</td>
+
+  </tr>
+  </tbody>
+</table>

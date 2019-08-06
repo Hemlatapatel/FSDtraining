@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+  <div class="row">
+    <button class="btn btn-primary" (click)="onToggleDetails()">Display Details</button>
+    <button class="btn btn-primary float-right" [disabled]="isDisable">Display Details</button>
+
+    </div>
+    <p *ngIf="showSecret">secret password=tuna</p>
+
+    <div *ngFor="let logItem of log" [ngStyle]="{backgroundColor: logItem < 5 ? 'blue': 'transparent'}"
+      [ngClass]="{'white-text' : logItem < 5}">
+      {{ logItem}}
+    </div>
+
+    <router-outlet></router-outlet>
